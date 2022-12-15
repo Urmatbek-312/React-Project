@@ -1,0 +1,101 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.search {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  display: flex;
+  min-height: 10vh;
+  justify-content: center;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0);
+  z-index: 1;
+  background: #9F1330;
+}
+
+input {
+  padding: 0.5rem;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 16px;
+}
+
+
+.searchbutton {
+ padding: 0.5rem 3rem;
+ margin-left: 10px;
+ background: #324589;
+ color: white;
+ font-size: 1.2rem;
+ cursor: pointer;
+ text-align: center;
+ border-radius: 16px;
+}
+
+
+.next {
+  position: fixed;
+  top: 90%;
+  right: 2%;
+  padding: 0.5rem 0.5rem;
+  border: 1px black;
+  background: #324589;
+  color: white;
+  width: 100px;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+.gallery {
+  width: 100%;
+  margin: 10vh 50%;
+  transform: translateX(-50%);
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  row-gap: 10px;
+  column-gap: 10px;
+  justify-content: center;
+}
+
+.gallery div {
+  position: relative;
+  overflow: hidden;
+}
+
+img {
+  margin-left: 5px;
+  height: 300px;
+  width: 200px;
+  object-fit: cover;
+  object-position: center;
+  cursor: pointer;
+  border-radius: 16px;
+}
+
+p {
+  position: absolute;
+  margin: 8px;
+  bottom: 10px;
+  color: white;
+}
+
+a {
+  position: absolute;
+  top: 0;
+  left: 0;
+  text-decoration: underline;
+  color: white;
+  margin-left: 10px;
+  font-weight: bold;
+}
