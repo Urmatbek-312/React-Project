@@ -1,6 +1,6 @@
 ## Description
 
-This is image gallery project, consist of one page where displayed photos also we can find any images by using search field and if we want to see more images we can click on the button NEXT Page after that on the screen we will see other images. 
+This is responsive image gallery project, consist of one page where displayed photos also we can find any images by using search field and if we want to see more images we can click on the button NEXT Page after that on the screen we will see other images. 
 ### `npm start`
 
 Runs the app in the development mode.\
