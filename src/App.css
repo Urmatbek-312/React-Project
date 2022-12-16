@@ -81,6 +81,10 @@ img {
   object-position: center;
   cursor: pointer;
   border-radius: 16px;
+  box-shadow: 0 8px 20px #9F1330;
+  overflow: hidden;
+  transition: .2s linear;
+  transform: scale(1);
 }
 
 p {
