@@ -9,10 +9,6 @@ This is responsive image gallery project used with API, consist of one page wher
 
 
 
-
-
-
-
 ### `npm start`
 
 Runs the app in the development mode.\
