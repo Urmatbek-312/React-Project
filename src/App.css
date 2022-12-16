@@ -66,6 +66,9 @@ input {
   row-gap: 10px;
   column-gap: 10px;
   justify-content: center;
+  flex-direction: row;
+  object-fit: cover;
+  transition: 2s linear;
 }
 
 .gallery div {
