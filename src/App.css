@@ -17,7 +17,7 @@ body {
   width: 100vw;
   display: flex;
   min-height: 10vh;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   border-bottom: 1px solid #000000;
   z-index: 1;
@@ -62,7 +62,6 @@ input {
 .german-container {
   width: 350px;
   height: 60px;
-  
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -102,9 +101,9 @@ input {
   top: 90%;
   right: 2%;
   padding: 0.5rem 0.5rem;
-  border: 1px black;
-  background: #324589;
-  color: white;
+  border: 1px #000000;
+  background: #FFCE00;
+  color: #DD0000;
   width: 100px;
   text-align: center;
   cursor: pointer;
