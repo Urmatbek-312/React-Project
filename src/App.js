@@ -30,7 +30,7 @@ async function CuratedPhotos(pagenr) {
     const pic = document.createElement("div");
     pic.innerHTML = `<img src=${photo.src.large}>
         <p>Photo : ${photo.photographer}</p>
-     <a href=$(photo.src.large)>Download</a>
+     <a href=${photo.src.large}>Download</a>
      `;
     document.querySelector(".gallery").appendChild(pic);
   });
@@ -53,7 +53,7 @@ async function SearchPhotos(query, pagenr) {
     const pic = document.createElement("div");
     pic.innerHTML = `<img src=${photo.src.large}>
         <p>Photo : ${photo.photographer}</p>
-     <a href=$(photo.src.large)>Download</a>
+     <a href=${photo.src.large}>Download</a>
      `;
     document.querySelector(".gallery").appendChild(pic);
   });
