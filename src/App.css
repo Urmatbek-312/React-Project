@@ -24,6 +24,22 @@ body {
   background: #000000;
 }
 
+.search_container {
+  width:300px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo-container {
+  width: 50px;
+  height: 50px;
+}
+
+.logo-image {
+  width: 100%;
+  height: 100%;
+}
+
 input {
   padding: 0.5rem;
   outline: none;
@@ -43,6 +59,43 @@ input {
  border-radius: 16px;
 }
 
+.german-container {
+  width: 350px;
+  height: 60px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.german-card {
+  width: 70px;
+  height: 50px;
+  background: #FFFFFF;
+  display: flex;
+  align-items: center;
+  border-radius: 5px;
+  box-shadow: none;
+}
+
+.german-image {
+  width: 55px;
+  height: 40px;
+  margin: 0 auto;
+  border-radius: 10px;
+  object-fit: contain;
+}
+
+.about-button {
+  width: 100px;
+  height: 45px;
+  background: #5b375b;
+  color: #FFFFFF;
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
 .next {
   position: fixed;
