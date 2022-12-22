@@ -1,10 +1,11 @@
 ## Description
 
-This is responsive image gallery project used with API, consist of one page where displayed photos also we can find any images by using search field and if we want to see more images we can click on the button NEXT Page after that on the screen we will see other images. 
+This is responsive image gallery project used with API, consist of one page where displayed photos also we can find any images by using search field and if we want to see more images we can click on the button NEXT Page after that on the screen we will see other images. Page format special for Germany 
 
 ##
 
-![imag 1](https://user-images.githubusercontent.com/60467856/208150833-7f658400-ca65-4baf-aad3-82c0df379aa0.png)
+![imagewq](https://user-images.githubusercontent.com/60467856/209211108-a507f6b2-a475-43d4-91e5-1877415155cc.png)
+
 
 
 
