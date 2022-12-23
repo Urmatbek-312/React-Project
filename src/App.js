@@ -5,6 +5,13 @@ const next = document.querySelector(".next");
 const input = document.querySelector("input");
 const searchbutton = document.querySelector(".searchbutton");
 
+
+const germanFlag = document.querySelector('.german-card__flag')
+const beer = document.querySelector('.german-card__beer')
+const sausage = document.querySelector('.german-card__sausage')
+const ball = document.querySelector('.german-card__ball')
+
+
 let pagenr = 1;
 let search = false;
 let query = "";
@@ -53,13 +60,13 @@ async function SearchPhotos(query, pagenr) {
     const pic = document.createElement("div");
     pic.innerHTML = `<img src=${photo.src.large}>
         <p>Photo : ${photo.photographer}</p>
-     <a href=${photo.src.large}>Download</a>
+     <a href=${photo.src.large} >Download</a>
      `;
     document.querySelector(".gallery").appendChild(pic);
   });
 }
 
-searchbutton.addEventListener("click", () => {
+  searchbutton.addEventListener("click", () => {
   if (input.value === "") return;
   clear();
   search = true;
@@ -75,7 +82,6 @@ function clear()
   pagenr = 1;
 }
 
-
 next.addEventListener("click", () => {
   if (!search) {
     pagenr++;
@@ -89,6 +95,38 @@ next.addEventListener("click", () => {
 CuratedPhotos(pagenr);
 
 
+germanFlag.addEventListener('click', () => {
+  query = 'germany'
+  clear()
+  search=true
+  SearchPhotos(query, pagenr)
+  pagenr++;
+} )
+
+
+beer.addEventListener('click', () => {
+  query = 'beer'
+  clear()
+  search=true
+  SearchPhotos(query, pagenr)
+  pagenr++;
+} )
+
+sausage.addEventListener('click', () => {
+  query = 'sausage'
+  clear()
+  search=true
+  SearchPhotos(query, pagenr)
+  pagenr++;
+} )
+
+ball.addEventListener('click', () => {
+  query = 'ball'
+  clear()
+  search=true
+  SearchPhotos(query, pagenr)
+  pagenr++;
+} )
 
 
 
@@ -101,3 +139,4 @@ function App() {
 }
 
 export default App;
+
